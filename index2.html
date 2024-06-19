@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body class="section">
+    <!-- Btn -->
+    <div class="section__BtnContainer">
+      <h2 class="section__BtnContainer__h2">Select Cells Number</h2>
+      <input
+        type="number"
+        placeholder="Enter col"
+        class="section__BtnContainer_Input"
+        id="colV"
+      />
+      <input
+        type="number"
+        placeholder="Enter row"
+        class="section__BtnContainer_Input"
+        id="rowV"
+      />
+      <button
+        type="button"
+        id="DementionsBtn"
+        class="section__BtnContainer__Btn"
+      >
+        Submit
+      </button>
+    </div>
+    <!-- Grid  -->
+    <div class="section__container" id="boxParent"></div>
+    <script src="./assets/app2.js"></script>
+  </body>
+</html>
